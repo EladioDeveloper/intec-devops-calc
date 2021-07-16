@@ -26,3 +26,9 @@ Run unittests + Coverage
 ```
 behave tests/Integracion/
 ```
+
+## Run App
+
+```
+    uvicorn --host 0.0.0.0 --port 8000
+```
