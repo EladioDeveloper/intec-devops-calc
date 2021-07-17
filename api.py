@@ -7,7 +7,7 @@ calc = Calc()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Nombre": "ELADIO JUNIOR RODRIGUEZ RODRIGUEZ", "Matricula": "1085776"}
 
 @app.get("/sumar")
 def read_sumar(num1: int = 0, num2: int = 0):
