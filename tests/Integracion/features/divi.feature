@@ -1,0 +1,14 @@
+Feature: Dividir dos numeros
+
+    Scenario Outline: Dividir
+        Given que yo deseo dividir dos numeros
+        When yo ingrese los numeros  <num1> y <num2>
+        Then el resultado <result> debe ser la division de ambos
+        
+        Examples: dividir de Numeros
+        | num1 | num2 | result  |
+        | 2    | 1    | 2.0     |
+        | 8    | 8    | 1.0     |
+        | 100  | 50   | 2.0     |
+        | 0    | 0    | Invalid |   
+        | 2    | -2   | Invalid |
