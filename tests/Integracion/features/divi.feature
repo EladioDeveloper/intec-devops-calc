@@ -10,5 +10,5 @@ Feature: Dividir dos numeros
         | 2    | 2    | 1.0     |
         | 12   | 1    | 12.0    |
         | 1000 | 100  | 10.0    |
-        | 0    | 0    | 0.0     |   
+        | 0    | 0    | Invalid |   
         | 2    | -2   | Invalid |
