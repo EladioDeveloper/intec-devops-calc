@@ -20,6 +20,13 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(900, self.calc.restar(1000,100))
         self.assertEqual(0, self.calc.restar(0,0))
         self.assertEqual("Invalid", self.calc.restar(1,-1))
+        
+    def test_multiplicar(self):
+        self.assertEqual(4, self.calc.multiplicar(2,2))
+        self.assertEqual(12, self.calc.multiplicar(1,12))
+        self.assertEqual(100000, self.calc.multiplicar(100,1000))
+        self.assertEqual(0, self.calc.multiplicar(0,0))
+        self.assertEqual("Invalid", self.calc.multiplicar(1,-1))
 
 if __name__ == '__main__':
     unittest.main()
