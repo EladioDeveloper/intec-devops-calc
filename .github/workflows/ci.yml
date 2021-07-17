@@ -80,7 +80,7 @@ jobs:
   testAPIDev:
     runs-on: ubuntu-latest
     
-    needs: testDev 
+    needs: deployDev 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
