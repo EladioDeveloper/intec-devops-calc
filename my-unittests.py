@@ -13,6 +13,14 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(0, self.calc.sumar(0,0))
         self.assertEqual("Invalid", self.calc.sumar(1,-1))
 
+
+    def test_resta(self):
+        self.assertEqual(0, self.calc.restar(2,2))
+        self.assertEqual(11, self.calc.restar(12,1))
+        self.assertEqual(900, self.calc.restar(1000,100))
+        self.assertEqual(0, self.calc.restar(0,0))
+        self.assertEqual("Invalid", self.calc.restar(1,-1))
+
 if __name__ == '__main__':
     unittest.main()
      
