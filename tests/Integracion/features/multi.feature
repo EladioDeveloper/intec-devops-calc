@@ -2,7 +2,7 @@ Feature: Multiplicar dos numeros
 
     Scenario Outline: Multiplicar
         Given deseo multiplicar dos numeros
-        When yo ingrese los numeros  <num1> y <num2>
+        When yo provea los numeros  <num1> y <num2> para multiplicar
         Then el resultado <result> debe ser la multiplicacion de ambos
         
         Examples: multiplicar de Numeros
