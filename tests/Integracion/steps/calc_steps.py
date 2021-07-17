@@ -46,3 +46,18 @@ def step_implementation(context, num1, num2):
 @then('El resultado {result} debe ser la multiplicacion de ambos')
 def step_implementation(context, result):
     assert str(result) == str(context.api_response.json().get('total'))
+
+    
+@given("que yo deseo dividir dos numeros")
+def step_implementation(context):
+    context.app =  TestClient(api.app)
+    
+@when('yo someta los numeros {num1} y {num2} para dividir')
+def step_implementation(context, num1, num2):
+    context.api_response = context.app.get(f'/dividir?num1={num1}&num2={num2}')
+    print("codigo GG", context.api_response.status_code)
+    assert 200 == context.api_response.status_code
+
+@then('El resultado {result} debe ser la division de ambos')
+def step_implementation(context, result):
+    assert str(result) == str(context.api_response.json().get('total'))

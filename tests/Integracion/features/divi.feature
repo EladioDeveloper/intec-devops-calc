@@ -2,7 +2,7 @@ Feature: Dividir dos numeros
 
     Scenario Outline: Dividir
         Given que yo deseo dividir dos numeros
-        When yo ingrese los numeros  <num1> y <num2>
+        When yo someta los numeros <num1> y <num2> para dividir
         Then el resultado <result> debe ser la division de ambos
         
         Examples: dividir de Numeros
