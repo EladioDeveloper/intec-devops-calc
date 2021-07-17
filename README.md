@@ -33,7 +33,7 @@ behave tests/Integracion/
     uvicorn --host 0.0.0.0 --port 8000
 ```
 
-## Proyectos creados en clasos
+## Proyectos creados en clases
 
 * [React App](https://github.com/EladioDeveloper/ReactHelloWorld)
 * [Primeras practicas](https://github.com/EladioDeveloper/ReactApp)
