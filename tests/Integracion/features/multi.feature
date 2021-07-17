@@ -7,8 +7,8 @@ Feature: Multiplicar dos numeros
         
         Examples: multiplicar de Numeros
         | num1 | num2 | result  |
-        | 2    | 1    | 2       |
-        | 8    | 8    | 64      |
-        | 3    | 100  | 300     |
+        | 2    | 2    | 4       |
+        | 1    | 12   | 12      |
+        | 100  | 1000 | 100000  |
         | 0    | 0    | 0       |
-        | 1    | -2   | Invalid |
+        | 1    | -1   | Invalid |

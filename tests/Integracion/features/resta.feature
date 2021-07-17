@@ -8,7 +8,7 @@ Feature: Restar dos numeros
         Examples: Restar de Numeros
         | num1 | num2 | result  |
         | 2    | 2    | 0       |
-        | 5    | 3    | 2       |
-        | 1000 | 500  | 500     |
+        | 12   | 1    | 11      |
+        | 1000 | 100  | 900     |
         | 0    | 0    | 0       |
-        | 1    | -2   | Invalid |
+        | 1    | -1   | Invalid |

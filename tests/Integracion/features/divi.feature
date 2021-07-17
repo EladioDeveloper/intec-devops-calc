@@ -8,7 +8,7 @@ Feature: Dividir dos numeros
         Examples: dividir de Numeros
         | num1 | num2 | result  |
         | 2    | 2    | 1.0     |
-        | 3    | 2    | 1.5     |
-        | 100  | 50   | 2.0     |
-        | 10   | 4    | 2.5     |   
+        | 12   | 1    | 12.0    |
+        | 1000 | 100  | 10.0    |
+        | 0    | 0    | 0.0     |   
         | 2    | -2   | Invalid |
