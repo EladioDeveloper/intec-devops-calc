@@ -4,7 +4,7 @@
 
     * Suma de 2 numeros.
     * Resta de 2 numeros.
-    * Multiplicacion de 3 numeros.
+    * Multiplicacion de 2 numeros.
     * Division de 2 numeros.
 
 ## Requirements
@@ -32,3 +32,8 @@ behave tests/Integracion/
 ```
     uvicorn --host 0.0.0.0 --port 8000
 ```
+
+## Proyectos creados en clasos
+
+* [React App](https://github.com/EladioDeveloper/ReactHelloWorld)
+* [Primeras practicas](https://github.com/EladioDeveloper/ReactApp)
